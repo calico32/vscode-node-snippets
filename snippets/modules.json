@@ -1,0 +1,112 @@
+{
+  "promisify": {
+    "prefix": ["req-promisify", "pmsfy"],
+    "body": ["const { promisify } = require('util');", "$0"],
+    "description": "Require promisify from module \"util\""
+  },
+  "path": {
+    "prefix": ["req-path"],
+    "body": ["const ${1:path} = require('path');", "$0"],
+    "description": "Require module \"path\""
+  },
+  "fs": {
+    "prefix": ["req-fs"],
+    "body": ["const ${1:fs} = require('fs');", "$0"],
+    "description": "Require module \"fs\""
+  },
+  "crypto": {
+    "prefix": ["req-crypto"],
+    "body": ["const ${1:crypto} = require('crypto');", "$0"],
+    "description": "Require module \"crypto\""
+  },
+  "http": {
+    "prefix": ["req-http"],
+    "body": ["const ${1:http} = require('http');", "$0"],
+    "description": "Require module \"http\""
+  },
+  "https": {
+    "prefix": ["req-https"],
+    "body": ["const ${1:https} = require('https');", "$0"],
+    "description": "Require module \"https\""
+  },
+  "express": {
+    "prefix": ["req-express"],
+    "body": ["const ${1:express} = require('express');", "$0"],
+    "description": "Require module \"express\""
+  },
+  "webpack": {
+    "prefix": ["req-webpack"],
+    "body": ["const ${1:webpack} = require('webpack');", "$0"],
+    "description": "Require module \"webpack\""
+  },
+  "lodash": {
+    "prefix": ["req-lodash"],
+    "body": ["const ${1:_} = require('lodash');", "$0"],
+    "description": "Require module \"lodash\" as _"
+  },
+  "chalk": {
+    "prefix": ["req-chalk"],
+    "body": ["const ${1:chalk} = require('chalk');", "$0"],
+    "description": "Require module \"chalk\""
+  },
+  "moment": {
+    "prefix": ["req-moment"],
+    "body": ["const ${1:moment} = require('moment');", "$0"],
+    "description": "Require module \"moment\""
+  },
+  "async": {
+    "prefix": ["req-async"],
+    "body": ["const ${1:async} = require('async');", "$0"],
+    "description": "Require module \"async\""
+  },
+  "axios": {
+    "prefix": ["req-axios"],
+    "body": ["const ${1:axios} = require('axios');", "$0"],
+    "description": "Require module \"axios\""
+  },
+  "inquirer": {
+    "prefix": ["req-inquirer"],
+    "body": ["const ${1:inquirer} = require('inquirer');", "$0"],
+    "description": "Require module \"inquirer\""
+  },
+  "mkdirp": {
+    "prefix": ["req-mkdirp"],
+    "body": ["const ${1:mkdirp} = require('mkdirp');", "$0"],
+    "description": "Require module \"mkdirp\""
+  },
+  "glob": {
+    "prefix": ["req-glob"],
+    "body": ["const ${1:glob} = require('glob');", "$0"],
+    "description": "Require module \"glob\""
+  },
+  "dotenv": {
+    "prefix": ["req-dotenv"],
+    "body": ["require('dotenv').config();", "$0"],
+    "description": "Require module \"dotenv\" and run config()"
+  },
+  "fs-extra": {
+    "prefix": ["req-fs-extra"],
+    "body": ["const ${1:fse} = require('fs-extra');", "$0"],
+    "description": "Require module \"fs-extra\""
+  },
+  "node-fetch": {
+    "prefix": ["req-node-fetch"],
+    "body": ["const ${1:fetch} = require('node-fetch');", "$0"],
+    "description": "Require module \"node-fetch\""
+  },
+  "handlebars": {
+    "prefix": ["req-handlebars"],
+    "body": ["const ${1:Handlebars} = require('handlebars');", "$0"],
+    "description": "Require module \"handlebars\""
+  },
+  "mongoose": {
+    "prefix": ["req-mongoose"],
+    "body": ["const ${1:mongoose} = require('mongoose');", "$0"],
+    "description": "Require module \"mongoose\""
+  },
+  "jsonwebtoken": {
+    "prefix": ["req-jsonwebtoken"],
+    "body": ["const {$1:jwt} = require('jsonwebtoken');", "$0"],
+    "description": "Require module \"jsonwebtoken\""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "node-snippets",
+  "publisher": "devdoge1",
+  "displayName": "Node Snippets",
+  "description": "Short and simple snippets for Node.js",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "repository": {
+    "url": "https://github.com/wiisportsresort/vscode-node-snippets"
+  },
+  "icon": "./icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/modules.json"
+      }
+    ]
+  }
+}
